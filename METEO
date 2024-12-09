@@ -1,0 +1,17 @@
+<div id="TTPW_Zazu"></div>
+&nbsp;
+
+<script type="text/javascript" src="https://www.tutiempo.net/s-widget/pw/fZazu/C00/"></script>
+
+<script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function() {
+                // Encuentra y simula el clic en el botón de aceptar cookies.
+                var botonAceptarCookies = document.querySelector('a.cdp-cookies-solapa.cdp-animacion-abajo'); // Reemplaza con la clase correcta del botón
+                if (botonAceptarCookies) {
+                    botonAceptarCookies.click();
+                }
+            });
+        </script>
+<!--?php &lt;br ?--> }
+}
+add_action('wp_footer', 'aceptar_cookies_en_pagina_especifica');
